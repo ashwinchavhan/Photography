@@ -1,0 +1,131 @@
+/* Base styles */
+
+header {
+    width: auto;
+    background: var(--primary-dark);
+    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    opacity: 0;
+    animation: fadeInLeft 1s ease forwards;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    gap: .6rem;
+    list-style-type: none;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+li {
+    position: relative;
+}
+
+li a {
+    display: inline-block;
+    padding: .3rem 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: .7px;
+    border-radius: 36px;
+    line-height: 2;
+    transition: transform 0.4s, opacity 0.4s, background-color 0.4s;
+    opacity: 0;
+    animation: fadeIn 0.6s ease forwards;
+    animation-delay: calc(.15s * var(--navAni));
+}
+
+
+/* Hover and active state animations */
+
+li a.active,
+li a:hover {
+    color: var(--primary-color);
+    transform: rotateY(10deg) rotateX(5deg);
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Light background on hover */
+}
+
+li a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transition: width 0.4s, left 0.4s;
+}
+
+li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+#click {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+.mode i {
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: var(--primary-color);
+    opacity: 0;
+    animation: fadeInRight 1.5s ease forwards;
+}
+
+
+/* Keyframes for animations */
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
