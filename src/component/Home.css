@@ -55,7 +55,11 @@ body {
     transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+<<<<<<< HEAD
 .container {
+=======
+ .container {
+>>>>>>> fab64a56a720c8e232857c0cdda6bc6e0fb67399
     padding: 0 8.4rem;
 }
 
