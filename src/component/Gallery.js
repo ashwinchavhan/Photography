@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import './Gallery.css';
 
 
@@ -6,15 +6,15 @@ import './Gallery.css';
 
 
 // Import your images
-import image1 from './images/image1.jpg';
-import image2 from './images/image2.jpeg';
-import image3 from './images/image3.jpeg';
-import image4 from './images/image4.jpeg';
-import image5 from './images/image5.jpeg';
-import image6 from './images/image6.jpeg';
+// import image1 from './images/image1.jpg';
+// import image2 from './images/image2.jpeg';
+// import image3 from './images/image3.jpeg';
+// import image4 from './images/image4.jpeg';
+// import image5 from './images/image5.jpeg';
+// import image6 from './images/image6.jpeg';
 // Add more imports as needed
 
-const images = [image1, image2, image3 , image4,image5,image6/*, add more images here */];
+// const images = [image1, image2, image3 , image4,image5,image6/*, add more images here */];
 
 const Gallery = () => {
   return (

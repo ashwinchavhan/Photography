@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { } from 'react-router-dom'; // Import Link from react-router-dom
 import  './Home.css'
 const Home = () => {
 
@@ -110,7 +110,7 @@ const Home = () => {
 
 		<figure class="card">
 
-			<img src="https://www.linkpicture.com/q/1_1484.jpg" />
+			<img alt='crds' src="https://www.linkpicture.com/q/1_1484.jpg" />
 
 			<figcaption>    Happy Client</figcaption>
 
@@ -118,7 +118,7 @@ const Home = () => {
 
 		<figure class="card">
 
-			<img src="https://www.linkpicture.com/q/2_965.jpg" />
+			<img  alt='crds' src="https://www.linkpicture.com/q/2_965.jpg" />
 
 			<figcaption>Stick Fight</figcaption>
 
@@ -126,7 +126,7 @@ const Home = () => {
 
 		<figure class="card">
 
-			<img src="https://www.linkpicture.com/q/3_695.jpg" />
+			<img alt='crds' src="https://www.linkpicture.com/q/3_695.jpg" />
 
 			<figcaption>Minion Masters</figcaption>
 
@@ -134,7 +134,7 @@ const Home = () => {
 
 		<figure class="card">
 
-			<img src="https://www.linkpicture.com/q/4_543.jpg" />
+			<img  alt='crds' src="https://www.linkpicture.com/q/4_543.jpg" />
 
 			<figcaption>KoseBoz!</figcaption>
 
@@ -144,7 +144,7 @@ const Home = () => {
 
         <figure class="card">
 
-        <img src="https://www.linkpicture.com/q/4_543.jpg" />
+        <img alt='crds' src="https://www.linkpicture.com/q/4_543.jpg" />
 
         <figcaption>KoseBoz!</figcaption>
 
@@ -154,7 +154,7 @@ const Home = () => {
 
     <figure class="card">
 
-    <img src="https://www.linkpicture.com/q/4_543.jpg" />
+    <img alt='crds' src="https://www.linkpicture.com/q/4_543.jpg" />
 
     <figcaption>KoseBoz!</figcaption>
 
@@ -168,7 +168,7 @@ const Home = () => {
 
 		<figure class="article">
 
-			<img src="https://www.linkpicture.com/q/news1_1.jpg" />
+			<img alt='crds' src="https://www.linkpicture.com/q/news1_1.jpg" />
 
 			<figcaption>
 
@@ -189,7 +189,7 @@ const Home = () => {
 
 		<figure class="article">
 
-			<img src="https://www.linkpicture.com/q/news2.png" />
+			<img alt='crds' src="https://www.linkpicture.com/q/news2.png" />
 
 			<figcaption>
 

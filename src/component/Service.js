@@ -1,7 +1,7 @@
 
 import './Service.css'
 
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 
 import image1 from './images/weding.jpg';
 
@@ -33,7 +33,7 @@ const Service = ()=>{
 			<div class="cube-container">
 				<div class="photo-cube">
 
-        <img className="front" src={images[0]} alt="Image 1" />
+        <img className="front" src={images[0]} alt="Image1" />
 					<div class="back photo-desc">
 					  <h3>Pre-Wedding Photography</h3>
 					  <p>Capture the romantic moments before your big day with our
@@ -49,11 +49,11 @@ const Service = ()=>{
 			<div class="cube-container">
 				<div class="photo-cube">
 
-        <img className="front" src={images[1]} alt="Image 2" />
+        <img className="front" src={images[1]} alt="Image2" />
 					<div class="back photo-desc">
 					  <h3>Wedding Photography</h3>
 					  <p>Relive your special day with our comprehensive wedding photography services..</p>
-						<a href="#" class="button">contact us</a>
+						<a href="contact" class="button">contact us</a>
 					</div>
 					<img class="left" src="http://gdurl.com/A2BF" alt=""/>
 					<img class="right" src="http://gdurl.com/wt4v" alt=""/>
@@ -64,7 +64,7 @@ const Service = ()=>{
 			<div class="cube-container">
 				<div class="photo-cube">
 
-        <img className="front" src={images[3]} alt="Image 2" />
+        <img className="front" src={images[3]} alt="Image2" />
 					<div class="back photo-desc">
 					  <h3>Engagement Photography</h3>
 					  <p>Celebrate your engagement with stunning photos that capture your love and excitement.
@@ -85,7 +85,7 @@ const Service = ()=>{
       <div class="cube-container">
       <div class="photo-cube">
 
-      <img className="front" src={images[4]} alt="Image 2" />
+      <img   className="front" src={images[4]} alt="Image2" />
         <div class="back photo-desc">
           <h3>Family Portraits</h3>
           <p>Preserve precious family moments with our professional family portrait sessions..</p>
@@ -100,7 +100,7 @@ const Service = ()=>{
     <div class="cube-container">
       <div class="photo-cube">
 
-      <img className="front" src={images[5]} alt="Image 2" />
+      <img className="front" src={images[5]} alt="Image2" />
         <div class="back photo-desc">
           <h3>Fashion Photography</h3>
           <p>Elevate your fashion portfolio with our creative and stylish fashion photography sessions.r. Fusce dapibus, tellus ac cursus commodo.</p>

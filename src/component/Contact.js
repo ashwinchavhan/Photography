@@ -62,9 +62,9 @@ const Contact =()=>{
 
     <div className="social">
                 
-                <a href="#" style={{ "--socialAni": 1 }}><i className="fa-brands fa-linkedin-in"></i></a>
+                <a href="www.whatsapp.com" style={{ "--socialAni": 1 }}><i className="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://www.instagram.com/rahul__vaishnav__rj21/" style={{ "--socialAni": 2 }}><i className="fa-brands fa-instagram"></i></a>
-                <a href="#" style={{ "--socialAni": 3 }}><i className="fab fa-whatsapp"></i></a>
+                <a href="www.facebook.com" style={{ "--socialAni": 3 }}><i className="fab fa-whatsapp"></i></a>
 
                 <a href="https://www.youtube.com/@r-tiststudios4400?si=NErk_mTCO-AjiTJ5" style={{ "--socialAni": 4 }} target="_blank" rel="noopener noreferrer">
   <i className="fa-brands fa-youtube"></i>

@@ -11,7 +11,7 @@ const Navbar = () => {
       <header class="container">
       <div class="page-header">
         <div class="logo">
-          <a href="#"> R-Tist Studios</a>
+          <a href="Contact"> R-Tist Studios</a>
     
         </div>
        
